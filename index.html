@@ -86,21 +86,31 @@
             </div>
     </div>
 
-    <div id="projects">
-        <h2 class="heading">Key Projects</h2>
+   <div id="projects" class="background-alt">
+        <h2 class="heading">Strategic Projects</h2>
         <div class="container">
             <div class="row">
                 <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" alt="E-commerce Architecture" />
+                    </div>
                     <div class="project-info">
                         <h3>E-commerce Microservices Ecosystem</h3>
-                        <p>Developed a full-scale microservices architecture designed for high availability and low latency.</p>
+                        <p>
+                            Architected a robust, high-availability e-commerce platform leveraging a <strong>distributed microservices pattern</strong> to ensure modularity and horizontal scalability.
+                        </p>
                         <ul>
-                            <li>Integrated <strong>Kafka</strong> for event-driven notification dispatch.</li>
-                            <li>Utilized <strong>Redis</strong> for product metadata caching, achieving sub-100ms response times.</li>
-                            <li>Implemented <strong>Service Discovery (Eureka)</strong> and <strong>API Gateway</strong> for secure, scalable routing.</li>
+                            <li><strong>Performance Engineering:</strong> Achieved a <strong>90% latency reduction</strong> for the Product Service by implementing a strategic <strong>Redis</strong> caching layer.</li>
+                            <li><strong>Event-Driven Architecture:</strong> Integrated <strong>Apache Kafka</strong> to decouple notification logic, ensuring non-blocking execution of user alerts.</li>
+                            <li><strong>Service Orchestration:</strong> Orchestrated a suite of 6+ services (Product, User, Payment, Email, API Gateway, and Eureka) to provide a seamless end-to-end transaction flow.</li>
                         </ul>
-                        <div class="project-list">
-                            <a href="https://github.com/pankaj-codes" target="_blank">View on GitHub <i class="fa fa-external-link"></i></a>
+                        
+                        <div class="project-links">
+                            <p><strong>Core Repositories:</strong></p>
+                            <a href="https://github.com/pankaj-codes/ProductService" target="_blank" class="btn-text">Product Service</a> |
+                            <a href="https://github.com/pankaj-codes/UserService" target="_blank" class="btn-text">User Service</a> |
+                            <a href="https://github.com/pankaj-codes/PaymentService" target="_blank" class="btn-text">Payment Service</a> |
+                            <a href="https://github.com/pankaj-codes/ApiGateway" target="_blank" class="btn-text">API Gateway</a>
                         </div>
                     </div>
                 </div>
